@@ -24,3 +24,5 @@ Open `index.html` in a browser.
 ## Note
 
 This website is an academic demonstration project.
+
+https://andriymoiskpi.github.io/KYIVSPETSBLOK/
