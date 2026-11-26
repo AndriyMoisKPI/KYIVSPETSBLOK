@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KYIVSPETSBLOK — engineering and manufacturing of custom industrial control units.">
+  <title>KYIVSPETSBLOK | Engineering &amp; Manufacturing</title>
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="brand" href="#home" aria-label="KYIVSPETSBLOK home page">
+        <span class="brand-logo">
+          <img src="assets/logo.png" alt="KYIVSPETSBLOK logo">
+        </span>
+        <span class="brand-text">
+          KYIV<span class="accent">SPETS</span>BLOK
+          <small>ENGINEERING &amp; MANUFACTURING</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-navigation">
+        ☰
+      </button>
+
+      <nav id="main-navigation" class="site-nav">
+        <a href="#about" data-t="navAbout">Про нас</a>
+        <a href="#services" data-t="navServices">Можливості</a>
+        <a href="#locations" data-t="navLocations">Географія</a>
+        <a href="#contact" data-t="navContact">Контакти</a>
+      </nav>
+
+      <div class="language-switcher" aria-label="Language switcher">
+        <button type="button" data-lang="uk" aria-pressed="true">UA</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero-section">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow" data-t="heroTag">ПРОМИСЛОВА ЕЛЕКТРОНІКА • З 2021 РОКУ</div>
+          <h1 data-t="heroTitle">Блоки керування для промислового обладнання</h1>
+          <p data-t="heroText">Розробляємо та виготовляємо електронні блоки керування за індивідуальними вимогами замовників.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-t="heroButton">Обговорити проєкт →</a>
+            <a class="btn btn-secondary" href="#services" data-t="heroMore">Наші можливості</a>
+          </div>
+        </div>
+
+        <figure class="hero-figure">
+          <img src="assets/hero.webp" alt="KYIVSPETSBLOK control unit development and manufacturing" width="1500" height="1000">
+          <figcaption data-t="heroCaption">Від прототипу до готового виробу</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="stats-section" aria-label="Company figures">
+      <div class="wrap stats-grid">
+        <article class="stat-card">
+          <strong>2021</strong>
+          <span data-t="s1">Рік заснування</span>
+        </article>
+        <article class="stat-card">
+          <strong>248</strong>
+          <span data-t="s2">Працівників</span>
+        </article>
+        <article class="stat-card">
+          <strong>2 + 2</strong>
+          <span data-t="s3">КБ та складальні підприємства</span>
+        </article>
+        <article class="stat-card">
+          <strong>24 000</strong>
+          <span data-t="s4">Блоків на рік (потужність)</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap split-grid">
+        <div>
+          <div class="eyebrow" data-t="navAbout">Про нас</div>
+          <h2 data-t="aboutTitle">Українська інженерно-виробнича компанія</h2>
+          <p data-t="aboutText">АТ «KYIVSPETSBLOK» спеціалізується на розробці та виробництві блоків керування промисловим обладнанням. Забезпечуємо повний цикл – від технічного завдання до серійного виробництва та технічного супроводу.</p>
+          <p data-t="aboutText2">Наша мета – створення спеціалізованої промислової електроніки та розвиток власної інженерної й виробничої мережі в Україні та Європі.</p>
+        </div>
+        <img class="section-photo" src="assets/engineering.webp" alt="Engineering team at work" loading="lazy">
+      </div>
+    </section>
+
+    <section id="services" class="section section-light">
+      <div class="wrap">
+        <div class="eyebrow" data-t="navServices">Можливості</div>
+        <h2 data-t="servicesTitle">Від ідеї до виробництва</h2>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span>01 /</span>
+            <h3 data-t="c1">Проєктування електроніки</h3>
+            <p data-t="d1">Архітектура, електричні схеми, друковані плати та корпуси.</p>
+          </article>
+          <article class="feature-card">
+            <span>02 /</span>
+            <h3 data-t="c2">Вбудоване ПЗ</h3>
+            <p data-t="d2">Алгоритми керування, діагностика та промислові інтерфейси.</p>
+          </article>
+          <article class="feature-card">
+            <span>03 /</span>
+            <h3 data-t="c3">Прототипування та тестування</h3>
+            <p data-t="d3">Дослідні зразки, функціональні та експлуатаційні випробування.</p>
+          </article>
+          <article class="feature-card">
+            <span>04 /</span>
+            <h3 data-t="c4">Виробництво</h3>
+            <p data-t="d4">Виготовлення плат і корпусів, SMT/THT-монтаж, малосерійне та серійне складання.</p>
+          </article>
+          <article class="feature-card">
+            <span>05 /</span>
+            <h3 data-t="c5">Модернізація</h3>
+            <p data-t="d5">Адаптація та заміна застарілих блоків керування.</p>
+          </article>
+          <article class="feature-card">
+            <span>06 /</span>
+            <h3 data-t="c6">Технічний супровід</h3>
+            <p data-t="d6">Документація, діагностика та оновлення виробів.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split-grid">
+        <img class="section-photo" src="assets/manufacturing.webp" alt="Manufacturing process" loading="lazy">
+        <div>
+          <div class="eyebrow" data-t="industriesTag">Галузі застосування</div>
+          <h2 data-t="industriesTitle">Рішення під ваше обладнання</h2>
+
+          <div class="industry-list">
+            <div class="industry-item">
+              <strong data-t="i1">Промислове обладнання</strong>
+              <span data-t="i1d">Основний напрям: верстати, виробничі лінії, технологічні установки.</span>
+            </div>
+            <div class="industry-item">
+              <strong data-t="i2">Спеціальна техніка</strong>
+              <span data-t="i2d">Будівельне, комунальне та гірничодобувне обладнання.</span>
+            </div>
+            <div class="industry-item">
+              <strong data-t="i3">Важка транспортна техніка</strong>
+              <span data-t="i3d">Вантажні автомобілі, кар'єрні самоскиди та спеціалізовані машини.</span>
+            </div>
+            <div class="industry-item">
+              <strong data-t="i4">Сільськогосподарська техніка</strong>
+              <span data-t="i4d">Трактори, комбайни та навісне обладнання.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="locations" class="section section-light">
+      <div class="wrap">
+        <div class="eyebrow" data-t="navLocations">Географія</div>
+        <h2 data-t="locationsTitle">Виробнича та інженерна мережа</h2>
+
+        <div class="map-card">
+          <img src="assets/map.png" alt="KYIVSPETSBLOK network map across Ukraine, Czechia and Lithuania" class="company-map-image" loading="lazy">
+        </div>
+
+        <div class="feature-grid locations-grid">
+          <article class="location-card">
+            <span class="status-pill" data-t="active">Діє</span>
+            <h3 data-t="l1">Київ, Україна</h3>
+            <p data-t="l1d">Головний офіс</p>
+          </article>
+          <article class="location-card">
+            <span class="status-pill" data-t="active">Діє</span>
+            <h3 data-t="l2">Бровари, Україна</h3>
+            <p data-t="l2d">КБ №1, складальне підприємство №1</p>
+          </article>
+          <article class="location-card">
+            <span class="status-pill" data-t="active">Діє</span>
+            <h3 data-t="l3">Рівне, Україна</h3>
+            <p data-t="l3d">Офіс №2, мале КБ №2, складальне підприємство №2</p>
+          </article>
+          <article class="location-card">
+            <span class="status-pill future" data-t="building">Будівництво</span>
+            <h3 data-t="l4">Луцьк, Україна</h3>
+            <p data-t="l4d">Виробниче підприємство №3</p>
+          </article>
+          <article class="location-card">
+            <span class="status-pill future" data-t="prep">Підготовка</span>
+            <h3 data-t="l5">Брно, Чехія</h3>
+            <p data-t="l5d">Європейський офіс, КБ та виробничо-складальний комплекс</p>
+          </article>
+          <article class="location-card">
+            <span class="status-pill future" data-t="planned">Планування</span>
+            <h3 data-t="l6">Шяуляй, Литва</h3>
+            <p data-t="l6d">Офіс, мале КБ та складальне підприємство</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="wrap split-grid">
+        <div>
+          <div class="eyebrow" data-t="navContact">Контакти</div>
+          <h2 data-t="contactTitle">Розробімо ваш наступний блок керування.</h2>
+          <p data-t="contactText">Розкажіть про ваше обладнання, вимоги та умови експлуатації.</p>
+        </div>
+        <div class="contact-box">
+          <strong data-t="office">Головний офіс</strong>
+          <p data-t="address">вул. Хрещатик, 21, Київ, Україна</p>
+          <p>info@kyivspetsblok.ua</p>
+          <p>+380 (96) 242 89 89</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <b>KYIV<span class="accent">SPETS</span>BLOK</b>
+        <p data-t="motto">Розробляємо. Виробляємо. Керуємо.</p>
+      </div>
+      <div class="footer-note">
+        <small>© 2027 KYIVSPETSBLOK</small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
